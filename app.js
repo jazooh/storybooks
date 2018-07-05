@@ -47,7 +47,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
-// MEthod Override Middelware
+// Method Override Middelware
 app.use(methodOverride('_method'));
 
 // Handlebars Middleware
